@@ -1,0 +1,35 @@
+
+.RedSocial-header{
+    all:inherit;
+    background-color: rgba(0, 0, 0, 0.384);
+    height: 50%;
+    
+}
+.LogoRs{
+    color: aliceblue;
+    font-size: medium;
+
+}
+.typewriter{
+    all: unset;
+    display: flex;
+    height: 5vh;
+    width: fit-content;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.RedSocial-footer{
+    all: unset;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.RedSocial-footer li{
+    font-size: medium;
+    border: solid 0.1vh rgba(240, 255, 255, 0.484);
+    padding: 2% 3% 2% 3%;
+}

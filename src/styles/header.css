@@ -1,0 +1,78 @@
+.Header{
+  color: azure;
+  background-color: rgba(0, 0, 0, 0.46);
+  border: solid rgba(240, 255, 255, 0.335) 0.2vh;
+  border-radius: 1%;
+  margin:2% 2% 2% 2% ;
+  text-align: center;
+}
+.Header,h2, h3 ,h4{
+  color: azure;
+  border-radius: 1%;
+
+  text-align: center;
+}
+.Header h1{
+    color: aliceblue;
+    font-style: inherit;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.261);
+    padding-bottom: 1vh;
+}
+
+.Info{
+  margin: 2% 2% 2% 2%;
+
+}
+.Info,h2{
+    color: rgb(245, 241, 34);
+
+}
+
+
+
+.HomeCards{
+    display:  flex;
+    position: static;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+    align-items: stretch
+}
+@media screen and (min-width: 1000px) {
+    .HomeCards{
+      flex-direction: row;
+
+      
+    }
+  }
+@media screen and (min-width: 769px) {
+    .HomeCards{
+      flex-direction: row;
+      
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    .HomeCards{
+      flex-wrap: wrap;
+      flex-direction: row;
+      
+    }
+  }
+
+  .slider-container {
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo según tu diseño */
+    margin: 0 auto;
+    cursor: grab;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    cursor: inherit;
+  }

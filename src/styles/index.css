@@ -1,0 +1,155 @@
+html {
+  background-color: black;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("../assets/img/BackgroundImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.Logo{
+  all: unset;
+  position: absolute;
+  height: 25vh;
+  width: 25vh;
+}
+.LogoT{
+  all: unset;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  height: 25vh;
+  width: 20vh;
+  
+}
+.LogoT:hover{
+  animation: up infinite 6s;
+}
+@keyframes up{
+  100%{
+    translate: 0 -20vh;
+  }
+}
+
+.custom-button{
+  padding: 0;
+  height: 5vh;
+  
+}
+
+.custom-button:hover{
+  color: rgba(1, 191, 244, 0.78);
+  
+}
+
+
+.Footer{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+ background-color: rgba(0, 0, 0, 0.371);
+ color: azure;
+}
+.CreatorSocial{
+  margin: 0vh;
+  display: grid;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+/*MEDIA DE 768PX*/
+
+@media screen and (max-width: 768px) {
+
+  html{
+    height: auto;
+  }
+ 
+  
+  .Footer{
+    margin-top: 1vh;
+    height: 100%;
+
+  }
+
+  .Logo{
+    height: 14VH;
+    width: 14VH;
+    position: absolute;
+  }
+  .LogoT{
+    position: fixed;
+    bottom: 80vh;
+    left: 5%;
+    height: 20vh;
+
+  }
+}
+
+
+
+/*MEDIA DE 500PX*/
+@media screen and (max-width: 500px)
+{ 
+
+  .Logo{
+    height: 40vh;
+    width: auto;
+    position: relative;
+  }
+  .LogoT{
+  top: 3%;
+    height: 13vh;
+    width: 11vh;}
+}
+
+/*MEDIA DE 350PX*/
+
+@media screen and (max-width: 350px) {
+  html{
+    height: unset;
+    font-size: 1.5vh;
+  }
+
+  .LogoT{
+    top: 0;
+    height: 15vh;
+    width: 10vh;
+  }
+  .Logo{
+    height: 33vh;
+    width: 100%;
+  }
+  }
+
+/*MEDIA DE min 769PX*/
+
+@media screen and (min-width: 768px) {
+  html{
+    height: fit-content;
+  }
+  .Logo{
+    width: 14VH;
+    height: 14VH;
+  }
+}
+
+/*MEDIA DE min 1000px*/
+
+@media screen and (min-width: 1000px) {
+  html{
+    height: 100;
+    
+  }
+  .LogoT{
+    height: 20vh;
+    width: 17vh;
+    
+  }
+}
+
+

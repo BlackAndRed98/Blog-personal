@@ -1,0 +1,94 @@
+.Navbar {
+  background-image: url("../assets/img/NavbarImg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: 100%;
+  width: 100%;
+  margin: 1vh 0 1vh 0;
+}
+.Navbar-nav {
+  top: 0%;
+  height: auto;
+  flex-wrap: wrap;
+  position: relative;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+justify-content: space-between
+
+
+}
+
+.Avatar:hover{
+  animation: around 3s ;
+}
+@keyframes around{
+  0%{
+    transform: rotateY(0deg);
+  }
+  100%{
+    transform: rotateY(360deg);
+  }
+}
+
+.SerchBar{
+  position: relative;
+  background-color: black;
+  border: solid  rgba(0, 94, 255, 0.836);
+  top: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    .Avatar{
+        all: unset;
+        position: relative;
+      }
+      
+      .Navbar{
+      display: flex;
+      height: 70vh;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+      }
+    
+      .Navbar-nav {
+          display: inline-grid;
+          flex-direction: column; /* Cambiar a disposición vertical */
+          align-items: center; /* Centrar los elementos horizontalmente */
+          top: 0%;
+          margin: 5% 0 0 5%;
+        }
+      
+     
+      .SerchBar{
+        all: unset;
+        position: relative;
+        background-color: black;
+        border: solid  blue;
+        
+      }
+
+/*MEDIA DE 1029px*/
+
+@media screen and (min-width: 1029px) {
+ 
+  
+    .Navbar-nav {
+      flex-wrap: nowrap;
+      
+   
+  }}
+}
+/*MEDIA DE 350PX*/
+
+@media screen and (max-width: 350px) {
+    .Navbar-nav {
+        display: inline-grid;
+     
+    }
+    
+}

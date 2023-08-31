@@ -1,0 +1,91 @@
+
+.PortafolioPage{
+   height: 100;
+   border: solid 0.1vh rgba(0, 0, 0, 0.459);
+   background-image: url("../assets/img/PortafolioBackground3.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: block;
+}
+body{
+    justify-content: center;
+}
+.Info{
+    text-align: center;
+ 
+    
+
+}
+.InfoH{
+    background-color: rgba(0, 0, 0, 0.495);
+    margin-top: 5%;
+    display:flow-root;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    line-height: 5vh;
+    
+}
+.IntroPresentacion {
+    background-image: url("../assets/img/CryptoBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 1% 5% 1%;
+    height: auto;
+  
+}
+.IntroPresentacion p,h3{
+    color: aliceblue;
+    font-weight: 600;
+   
+    line-height: 5vh;
+    background-color: rgba(0, 0, 0, 0.587);
+    border: solid 0.1px rgba(240, 248, 255, 0.525);
+
+}
+.IntroProgreso{
+    background-image: url("../assets/img/ProgresoBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 1% 5% 1%;
+    height: auto;
+
+}
+.IntroProgreso p,h3{
+    color: aliceblue;
+    font-weight: 600;
+    line-height: 5vh;
+    background-color: rgba(0, 0, 0, 0.587);
+    border: solid 0.1px rgba(240, 248, 255, 0.525);
+
+}
+.IntroActualmente{
+    background-image: url("../assets/img/ProgresoActualmente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 1% 5% 1%;
+    height: auto;
+
+}
+.IntroActualmente p,h3{
+    color: aliceblue;
+    font-weight: 600;
+    text-align: center;
+    line-height: 7vh;
+    background-color: rgba(0, 0, 0, 0.587);
+    border: solid 0.1px rgba(240, 248, 255, 0.525);
+
+}
+
+@media screen and (min-width: 1000px) {
+}
+@media screen and (min-width: 768px) {
+    
+  
+}
+
+@media screen and (max-width: 769px) {
+  
+}
+
+
