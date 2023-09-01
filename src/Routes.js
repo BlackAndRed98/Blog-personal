@@ -1,9 +1,4 @@
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  useLocation,
-} from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Error404 from "containers/errors/Error404";
 import Home from "containers/pages/Home";
 import RedSocial from "containers/pages/RedSocial";
