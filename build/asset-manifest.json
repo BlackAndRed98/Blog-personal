@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.43ec6a30.css",
+    "main.js": "/static/js/main.f84b94c5.js",
+    "static/media/tECH.gif": "/static/media/tECH.eaf6dc33509a3276bfe2.gif",
+    "static/media/CardPortafolio.png": "/static/media/CardPortafolio.3834fb53b1e0e8b20c24.png",
+    "static/media/BackgroundImg.jpg": "/static/media/BackgroundImg.fe96c20014152b3cd414.jpg",
+    "static/media/CardSocial.jpeg": "/static/media/CardSocial.1f25252878df33d723ad.jpeg",
+    "static/media/CryptoBackground.jpg": "/static/media/CryptoBackground.fcf564097ef94f83ab5b.jpg",
+    "static/media/NavbarImg.png": "/static/media/NavbarImg.aed1ba2b55738fc76f9e.png",
+    "static/media/ProgresoActualmente.jpg": "/static/media/ProgresoActualmente.0b38ff81bb5d22a8d8b8.jpg",
+    "static/media/ProgresoBackground.jpg": "/static/media/ProgresoBackground.018793ae4d27761a9cd9.jpg",
+    "static/media/PortafolioBackground3.jpg": "/static/media/PortafolioBackground3.4cef54c237738de5ddef.jpg",
+    "static/media/CardBlog.jpeg": "/static/media/CardBlog.8d91983d2b8a9cd00d98.jpeg",
+    "static/media/LogoTransparenteAzul.png": "/static/media/LogoTransparenteAzul.8db8b2687990289029e3.png",
+    "index.html": "/index.html",
+    "main.43ec6a30.css.map": "/static/css/main.43ec6a30.css.map",
+    "main.f84b94c5.js.map": "/static/js/main.f84b94c5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ec6a30.css",
+    "static/js/main.f84b94c5.js"
+  ]
+}
